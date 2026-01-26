@@ -1,5 +1,4 @@
 @echo off
-REM Change directory to the location of this bat file
 cd /d "%~dp0"
 
 echo Adding files...
