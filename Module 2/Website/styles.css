@@ -1,0 +1,83 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+}
+
+/* ID selector */
+#main-header {
+  background-color: #ff6b35;
+  color: white;
+  padding: 1rem;
+}
+
+/* Class selector */
+.nav-links {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hover effect */
+.nav-links a:hover,
+.btn:hover,
+#submit-btn:hover {
+  opacity: 0.8;
+}
+
+.hero {
+  text-align: center;
+  padding: 3rem;
+  background: #ffe5d9;
+}
+
+.btn {
+  background: #ff6b35;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Flexbox layout */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+table {
+  width: 80%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  gap: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .features {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-form {
+    width: 90%;
+  }
+}
